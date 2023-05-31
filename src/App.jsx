@@ -4,6 +4,7 @@ import Error404 from "./components/views/Error404";
 import Menu from "./components/common/Menu";
 import Footer from "./components/common/Footer";
 import Inicio from "./components/views/Inicio";
+import Login from "./components/views/Login"
 import DetalleProducto from "./components/views/DetalleProducto";
 import CrearProducto from "./components/views/producto/CrearProducto";
 import EditarProducto from "./components/views/producto/EditarProducto";
@@ -18,7 +19,8 @@ function App() {
       {/* <DetalleProducto></DetalleProducto> */}
       {/* <CrearProducto></CrearProducto> */}
       {/* <EditarProducto></EditarProducto> */}
-      <Administrador></Administrador>
+      {/* <Administrador></Administrador> */}
+      <Login></Login> 
       <Footer></Footer>
     </>
   );
